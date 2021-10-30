@@ -1,0 +1,42 @@
+---
+title: "Cyclist"
+author: "Manuel Beltrán"
+date: "29/10/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+### Google Data analysis capstone project
+In this project, we are going to work with a 12-month data of a company called Cyclistic in order to gain insights to solve the business task.
+
+### Introduction
+
+In this work we are going to do an analysis for a company called __Cyclistic__.In 2016, Cyclistic launched a successful bike-share offering. Since then, the program has grown to a fleet of 5,824 bicycles that are geotracked and locked into a network of 692 stations across Chicago. The bikes can be unlocked from one station and returned to any other station in the system anytime
+
+Until now, Cyclistic’s marketing strategy relied on  building general awareness and appealing to broad consumer segments. One approach that helped make these things possible was the flexibility of its pricing plans: single-ride passes, full-day passes,and annual memberships. Customers who purchase single-ride or full-day passes are referred to as casual riders. Customers who purchase annual memberships are Cyclistic members.
+
+Cyclistic’s finance analysts have concluded that annual members are much more profitable than casual riders. And it's believed within the company that, albeit flexible prices helps Cyclistic attract more costumers, the key to the company's future growth lies in maximizing annual members. Therfore, rather than creating a marketing campaign that targets all-new customers, we want to convert casual riders into members.
+
+The task that is been entrusted to the data analytics team is to gain insights that can be shared with the marketing team to design strategies aimed at converting casual riders into annual riders.
+
+### About the data
+
+The data use in this project is provided from [https://divvy-tripdata.s3.amazonaws.com/index.html](https://divvy-tripdata.s3.amazonaws.com/index.html). 
+For the purposes of this case study, the datasets are appropriate and will enable you to answer the business questions. The data has been made available by
+Motivate International Inc. under this [license](https://www.divvybikes.com/data-license-agreement). This is public data that you can use to explore how different customer types are using Cyclistic bikes. But note that data-privacy issues prohibit you from using riders’ personally identifiable information. This means that you won’t be able to connect pass purchases to credit card numbers to determine if casual riders live in the Cyclistic service area or if they have purchased multiple single passes.
+
+Due to the privacy of the data, we can not know neither how many times the same user used the service nor if the user lives nearby Cyclistic service area. This means that every ride in the data will be counted as if a different person did it.
+
+### Business task
+
+Analyze how casual riders and members use Cyclistic to find patterns and insights that can be exploited by the marketing team so they can design a conversion program.
+
+#### Step 1.- Prepare the data
+##### Creating dataframes from csv (comma separated values) files
+
+##### Observations (columns)
+
+##### Cleaning
+
